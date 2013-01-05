@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Gallery sederhana</title>
+<script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+<h1>Gallery sederhana</h1>
+<p> Pada contoh ini, di demonstrasikan membuat galeri sederhana menggunakan
+javascript dengan memanfaatkan event onchange pada combobox form</p>
+
+<form name="galleri" id="galleri" method="post" action="#">
+Pilih gambar :
+<select id="select" onchange="gantiGambar()">
+	<option value="image1.jpg">Image 1</option>
+	<option value="image2.gif">Image 2</option>
+	<option value="image3.png">Image 3</option>
+</select>
+<div id="album">
+	<p>Gambar akan di tampilkan disini</p>
+</div>
+</form>
+</body>
+</html>
