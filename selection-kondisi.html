@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>.: If @Javascript :.</title>
+	<script type="text/javascript">
+		document.write("<h1>Demo IF</h1><hr />");
+
+		var a = 10;
+		var b = 1;
+
+
+		/*
+			if di dalam blok statemen yang hanya satu perintah, dapat di tulis
+			menggunakan tanda {} (kurawal). namun bila lebih dari 1 kondisi harus
+			di berikan tanda kurawal.
+		*/
+		if(a < b)
+			document.write("nilai a " + a + " Lebih kecil dari b= " + b);
+		else
+			document.write("nilai a " + a + " Lebih besar dari b= " + b);	
+
+
+		document.write("<br /><h1>Demo Switch</h1><hr />");
+		var pilihan = 10;
+
+		switch(pilihan)
+		{
+		case 1:
+			document.write('anda memilih pilihan 1');
+			break;
+		case 2:
+			document.write('anda memilih pilihan 2');
+			break;
+		case 3:
+			document.write('anda memilih pilihan 3');
+			break;
+		default:
+			document.write('pilihan tidak tersedia');
+			break;
+		}
+	</script>
+
+</head>
+<body>
+</body>
+</html>
